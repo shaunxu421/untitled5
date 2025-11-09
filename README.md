@@ -18,4 +18,4 @@
 ## 快速运行
 1. 克隆项目：
    ```bash
-   git clone https://github.com/shaunxu421/SimpleEcommerce.git
+   git clone https://github.com/shaunxu421/untitled5.git
