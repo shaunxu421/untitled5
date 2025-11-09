@@ -1,13 +1,21 @@
 # Simple Ecommerce
-#nefu web开发 实验八
-#完成一个简单商品购买系统。要求有买家和卖家的基本操作功能。卖家可以实现商品的维护：新商品的添加、修改和删除等；买家能够查看到数据库中的商品，实现商品的选择、加入购物车、维护购物车（购物车商品的删除或数量修改等）和总花费统计。
 
-## 运行步骤
-1. 导入到 IntelliJ IDEA。
-2. 配置 Maven（右键 pom.xml → Maven → Reload）。
-3. 添加 Tomcat Server（Run Configurations → + → Tomcat Server → Local）。
-4. 部署 war 包，访问 http://localhost:8080/login.jsp。
+一个基于 **Java Servlet + JSP + Maven** 的简易电商系统。
 
-## 依赖
-- JDK 1.8
-- Tomcat 8.5
+## 功能
+- 用户登录/注册
+- 商品浏览
+- 购物车管理
+- 订单处理
+
+## 技术栈
+- Java 8+
+- Tomcat 8.5+
+- Maven
+- JSP + Servlet
+- MySQL（可选）
+
+## 快速运行
+1. 克隆项目：
+   ```bash
+   git clone https://github.com/shaunxu421/SimpleEcommerce.git
